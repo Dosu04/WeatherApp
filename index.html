@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="https://raw.githubusercontent.com/Dosu04/project-images/main/logo.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Weather App | Dosu</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        
+        .main{
+            padding: 0;
+            color: rgb(255, 255, 255);
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.363),rgba(0, 0, 0, 0.664)), url('https://github.com/Dosu04/project-images/blob/main/hero.jpg?raw=true') no-repeat center ;
+            background-size: 95rem;
+        }
+        .cont{
+            display: grid;
+            place-items: center;
+            text-align: center;
+            height: 100%;
+            
+        }
+
+
+
+        footer a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover.link1{
+            color: aqua;
+            font-size: larger;
+        }
+    </style>
+</head>
+    <body class="">
+            
+        <section class="main container-fluid">
+            <div class="cont">
+                <div class="title">
+                    <h1>
+                        DOSU-Weather
+                    </h1>
+                    <p>
+                       <marquee> Know the weather in any city in the world!</marquee>
+                    </p>
+                </div>
+                <form action="/" method="post">
+                    
+                    <label for="cityinput">City:</label>
+                    <input id="cityinput" type="text" name="cityName">
+                    <button class="btn btn-outline-primary" style="margin:0.5rem" type="submit">Go</button>
+            
+                </form>
+                
+                <footer>
+                    Weather App Developed by <a class="link1" href="">Emmanuel Oladosu</a>     
+                </footer>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
